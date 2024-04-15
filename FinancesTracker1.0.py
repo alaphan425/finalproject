@@ -171,15 +171,3 @@ class Profits:
             dateSortedDf = dateSortedDf.sort_values(by='Date')
             dateSortedDf.to_csv(filepath, index=False)
 
-revenueInstance = Revenue("Tea", "Teashop", 1000, "Beverage", 2024, 5, 16)
-expenseInstance = Expense("Tea Leaves", "Teashop", 200, "Ingredients", 2028, 7, 17)
-
-revenue_save = SaveDataCommands(revenueInstance)
-expense_save = SaveDataCommands(expenseInstance)
-
-revenue_save.write_revenue_to_log()
-expense_save.write_expense_to_log()
-
-profitsInstance = Profits(revenueInstance)
-
-profitsInstance.calculate_profits()
