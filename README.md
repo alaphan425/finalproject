@@ -1,10 +1,1 @@
-Program is not currently usable. 
-Simply install and open in any IDE or text editor to edit.
-Run in command prompt.
-Placeholder Instructions:
-1.
-2.
-3.
-4.
-5.
-6.
+Program is still currently unfinished. To run the program, you must manually execute the functions defined inside of the code. You must initialize the classes and pass objects inside of the code. How to run: go to https://www.python.org/downloads/ and install the newest version of python for your operating system. Open command terminal and enter "pip install pandas" and "pip install matplotlib."
